@@ -1,9 +1,11 @@
-import axios from "axios";
-import React from "react";
+import React from 'react';
 import "./App.css";
 
-export default {
-  getUser: function () {
-    return axios.get("https://randomuser.me/api/?results=100&nat=us");
-  },
-};
+function App() {
+  return (
+    <div className="App">
+    </div>
+  );
+}
+
+export default App;
